@@ -30,6 +30,7 @@
         {
             this.btnBank = new System.Windows.Forms.Button();
             this.btnTan = new System.Windows.Forms.Button();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // btnBank
@@ -50,11 +51,20 @@
             this.btnTan.Text = "TAN";
             this.btnTan.UseVisualStyleBackColor = true;
             // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(394, 430);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(121, 21);
+            this.comboBox1.TabIndex = 1;
+            // 
             // Product
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(570, 473);
+            this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.btnBank);
             this.Controls.Add(this.btnTan);
             this.Name = "Product";
@@ -68,5 +78,6 @@
         private System.Windows.Forms.Button btnTan;
 
         private System.Windows.Forms.Button btnBank;
+        private System.Windows.Forms.ComboBox comboBox1;
     }
 }
