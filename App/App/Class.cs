@@ -8,6 +8,6 @@ namespace App
 {
     class Class
     {
-        private string gg;
+        private string TT;
     }
 }
