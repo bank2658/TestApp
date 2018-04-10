@@ -8,5 +8,6 @@ namespace App
 {
     class Class
     {
+        private string gg;
     }
 }
