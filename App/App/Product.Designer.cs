@@ -32,6 +32,7 @@
             this.btnTan = new System.Windows.Forms.Button();
             this.cbmTAN = new System.Windows.Forms.ComboBox();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnBank
@@ -52,14 +53,6 @@
             this.btnTan.Text = "TAN";
             this.btnTan.UseVisualStyleBackColor = true;
             // 
-            // comboBox1
-            // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(394, 430);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 21);
-            this.comboBox1.TabIndex = 1;
-            // 
             // cbmTAN
             // 
             this.cbmTAN.FormattingEnabled = true;
@@ -68,11 +61,29 @@
             this.cbmTAN.Size = new System.Drawing.Size(121, 21);
             this.cbmTAN.TabIndex = 1;
             // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(394, 430);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(121, 21);
+            this.comboBox1.TabIndex = 1;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(117, 207);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(35, 13);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "label1";
+            // 
             // Product
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(570, 473);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.cbmTAN);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.btnBank);
@@ -80,6 +91,7 @@
             this.Name = "Product";
             this.Text = "Product";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -90,5 +102,6 @@
         private System.Windows.Forms.Button btnBank;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.ComboBox cbmTAN;
+        private System.Windows.Forms.Label label1;
     }
 }
