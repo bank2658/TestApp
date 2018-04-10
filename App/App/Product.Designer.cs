@@ -34,7 +34,7 @@
             // 
             // btnBank
             // 
-            this.btnBank.Location = new System.Drawing.Point(30, 51);
+            this.btnBank.Location = new System.Drawing.Point(113, 51);
             this.btnBank.Name = "btnBank";
             this.btnBank.Size = new System.Drawing.Size(238, 177);
             this.btnBank.TabIndex = 0;
