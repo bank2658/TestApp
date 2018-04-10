@@ -28,13 +28,24 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.btnTan = new System.Windows.Forms.Button();
             this.SuspendLayout();
+            // 
+            // btnTan
+            // 
+            this.btnTan.Location = new System.Drawing.Point(205, 312);
+            this.btnTan.Name = "btnTan";
+            this.btnTan.Size = new System.Drawing.Size(130, 69);
+            this.btnTan.TabIndex = 0;
+            this.btnTan.Text = "TAN";
+            this.btnTan.UseVisualStyleBackColor = true;
             // 
             // Product
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(570, 473);
+            this.Controls.Add(this.btnTan);
             this.Name = "Product";
             this.Text = "Product";
             this.ResumeLayout(false);
@@ -42,5 +53,7 @@
         }
 
         #endregion
+
+        private System.Windows.Forms.Button btnTan;
     }
 }
