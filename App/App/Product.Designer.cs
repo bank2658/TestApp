@@ -30,11 +30,12 @@
         {
             this.btnBank = new System.Windows.Forms.Button();
             this.btnTan = new System.Windows.Forms.Button();
+            this.cbmTAN = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // btnBank
             // 
-            this.btnBank.Location = new System.Drawing.Point(113, 51);
+            this.btnBank.Location = new System.Drawing.Point(160, 21);
             this.btnBank.Name = "btnBank";
             this.btnBank.Size = new System.Drawing.Size(238, 177);
             this.btnBank.TabIndex = 0;
@@ -43,18 +44,27 @@
             // 
             // btnTan
             // 
-            this.btnTan.Location = new System.Drawing.Point(205, 312);
+            this.btnTan.Location = new System.Drawing.Point(202, 314);
             this.btnTan.Name = "btnTan";
             this.btnTan.Size = new System.Drawing.Size(130, 69);
             this.btnTan.TabIndex = 0;
             this.btnTan.Text = "TAN";
             this.btnTan.UseVisualStyleBackColor = true;
             // 
+            // cbmTAN
+            // 
+            this.cbmTAN.FormattingEnabled = true;
+            this.cbmTAN.Location = new System.Drawing.Point(28, 422);
+            this.cbmTAN.Name = "cbmTAN";
+            this.cbmTAN.Size = new System.Drawing.Size(121, 21);
+            this.cbmTAN.TabIndex = 1;
+            // 
             // Product
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(570, 473);
+            this.Controls.Add(this.cbmTAN);
             this.Controls.Add(this.btnBank);
             this.Controls.Add(this.btnTan);
             this.Name = "Product";
@@ -68,5 +78,6 @@
         private System.Windows.Forms.Button btnTan;
 
         private System.Windows.Forms.Button btnBank;
+        private System.Windows.Forms.ComboBox cbmTAN;
     }
 }
