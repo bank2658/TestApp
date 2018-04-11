@@ -23,5 +23,11 @@ namespace App
             Product a = new Product();
             a.ShowDialog();
         }
+
+        private void btncal_Click(object sender, EventArgs e)
+        {
+            cal c = new cal();
+            c.ShowDialog();
+        }
     }
 }
