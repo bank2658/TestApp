@@ -19,7 +19,7 @@ namespace App
 
         private void btnfilm_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("click", "Film");
+            MessageBox.Show("clickkkk", "Film");
         }
     }
 }
