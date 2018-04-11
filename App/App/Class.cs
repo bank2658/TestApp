@@ -8,6 +8,6 @@ namespace App
 {
     class Class
     {
-        private string BANKBEST;
+        private string gg;
     }
 }
