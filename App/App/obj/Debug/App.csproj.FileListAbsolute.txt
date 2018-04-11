@@ -1,3 +1,12 @@
 D:\github\TestApp\App\App\bin\Debug\App.exe.config
 C:\Users\SiriwatSANSOM\Source\Repos\TestApp\App\App\bin\Debug\App.exe.config
 C:\Users\Administrator.KKDV2-20150521U\Source\Repos\TestApp\App\App\bin\Debug\App.exe.config
+C:\Users\Administrator.KKDV2-20150521U\Source\Repos\TestApp\App\App\bin\Debug\App.exe
+C:\Users\Administrator.KKDV2-20150521U\Source\Repos\TestApp\App\App\bin\Debug\App.pdb
+C:\Users\Administrator.KKDV2-20150521U\Source\Repos\TestApp\App\App\obj\Debug\App.csprojResolveAssemblyReference.cache
+C:\Users\Administrator.KKDV2-20150521U\Source\Repos\TestApp\App\App\obj\Debug\App.Form1.resources
+C:\Users\Administrator.KKDV2-20150521U\Source\Repos\TestApp\App\App\obj\Debug\App.Product.resources
+C:\Users\Administrator.KKDV2-20150521U\Source\Repos\TestApp\App\App\obj\Debug\App.Properties.Resources.resources
+C:\Users\Administrator.KKDV2-20150521U\Source\Repos\TestApp\App\App\obj\Debug\App.csproj.GenerateResource.Cache
+C:\Users\Administrator.KKDV2-20150521U\Source\Repos\TestApp\App\App\obj\Debug\App.exe
+C:\Users\Administrator.KKDV2-20150521U\Source\Repos\TestApp\App\App\obj\Debug\App.pdb
