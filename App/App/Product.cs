@@ -21,5 +21,9 @@ namespace App
         {
             MessageBox.Show("clickkkk", "Film");
         }
+
+        private void btnBank_Click(object sender, EventArgs e)
+        {
+        }
     }
 }

@@ -19,7 +19,9 @@ namespace App
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("click", "click");
+
+            Product a = new Product();
+            a.ShowDialog();
         }
     }
 }

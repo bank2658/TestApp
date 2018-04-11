@@ -45,6 +45,7 @@
             this.btnBank.TabIndex = 0;
             this.btnBank.Text = "bank";
             this.btnBank.UseVisualStyleBackColor = true;
+            this.btnBank.Click += new System.EventHandler(this.btnBank_Click);
             // 
             // btnTan
             // 
