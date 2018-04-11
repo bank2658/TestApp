@@ -1,2 +1,3 @@
 D:\github\TestApp\App\App\bin\Debug\App.exe.config
 C:\Users\SiriwatSANSOM\Source\Repos\TestApp\App\App\bin\Debug\App.exe.config
+C:\Users\Administrator.KKDV2-20150521U\Source\Repos\TestApp\App\App\bin\Debug\App.exe.config
