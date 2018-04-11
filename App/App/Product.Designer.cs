@@ -34,6 +34,7 @@
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
             this.lblTAN = new System.Windows.Forms.Label();
+            this.btnfilm = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnBank
@@ -71,7 +72,6 @@
             this.comboBox1.TabIndex = 1;
             // 
             // label1
-            // lblTAN
             // 
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(117, 207);
@@ -79,6 +79,9 @@
             this.label1.Size = new System.Drawing.Size(35, 13);
             this.label1.TabIndex = 2;
             this.label1.Text = "label1";
+            // 
+            // lblTAN
+            // 
             this.lblTAN.AutoSize = true;
             this.lblTAN.Location = new System.Drawing.Point(41, 237);
             this.lblTAN.Name = "lblTAN";
@@ -86,11 +89,22 @@
             this.lblTAN.TabIndex = 2;
             this.lblTAN.Text = "label1";
             // 
+            // btnfilm
+            // 
+            this.btnfilm.Location = new System.Drawing.Point(394, 263);
+            this.btnfilm.Name = "btnfilm";
+            this.btnfilm.Size = new System.Drawing.Size(113, 48);
+            this.btnfilm.TabIndex = 3;
+            this.btnfilm.Text = "FILM";
+            this.btnfilm.UseVisualStyleBackColor = true;
+            this.btnfilm.Click += new System.EventHandler(this.btnfilm_Click);
+            // 
             // Product
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(570, 473);
+            this.Controls.Add(this.btnfilm);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lblTAN);
             this.Controls.Add(this.cbmTAN);
@@ -113,5 +127,6 @@
         private System.Windows.Forms.ComboBox cbmTAN;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label lblTAN;
+        private System.Windows.Forms.Button btnfilm;
     }
 }
